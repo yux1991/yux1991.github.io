@@ -7,9 +7,10 @@ table#tlayout {
 body {
 	background: white;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, 宋体;
-	margin: auto;
-	padding: 8px;
+	padding-bottom: 8px;
+	margin: 0;
 }
+
 /* Style the tab */
 .tab {
     overflow: hidden;
@@ -24,9 +25,9 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
+    padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
-    margin: auto;
 }
 
 /* Change background color of buttons on hover */
@@ -42,6 +43,7 @@ body {
 /* Style the tab content */
 .tabcontent {
     display: none;
+    padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
 }
